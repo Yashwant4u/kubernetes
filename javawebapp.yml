@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: javawebappcontainer
-        image: mayankgupta1217/simple-devops-image
+        image: dockerhandson/java-web-app:latest
 
         resources:
           limits:
