@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: javawebappcontainer
-        image: dockerhandson/stable-perl
+        image: mayankgupta1217/simple-devops-image
 
         resources:
           limits:
