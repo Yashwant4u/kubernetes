@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 kind: Dep2
+kind2: Deployment2
+kind4: dep4
 kind2: Deployment24
 metadata:
   name: javawebapp
