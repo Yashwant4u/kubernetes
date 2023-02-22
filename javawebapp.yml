@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: javawebapp
 spec:
+  hello: raju has been added
   replicas: 2
   selector:
     matchLabels:
