@@ -1,5 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
+kind2: Deployment2
 metadata:
   name: javawebapp
 spec:
@@ -22,3 +23,11 @@ spec:
             cpu: "400m"
         ports:
         - containerPort: 8080
+
+
+
+
+
+
+
+code change for testing
