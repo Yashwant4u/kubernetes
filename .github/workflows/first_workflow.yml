@@ -1,1 +1,14 @@
 #first workflow of github actions
+
+name: First_workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello guru
+        run: echo "hello guru"
+      - name: Print multiple lines code
+        run: |
+          echo "first line of pipe"
+          echo "second line of pipe"
