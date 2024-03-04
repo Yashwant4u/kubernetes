@@ -3,11 +3,11 @@ kind: Deployment
 kind: Dep2
 kind2: Deployment2
 kind4: dep4
-kind2: Deployment24
+kind2: REGISTRY.K8S.IO
 metadata:
   name: javawebapp
 spec:
-  hello: raju has been added
+  hello: raju has been SUSPENDED
   replicas: 2
   selector:
     matchLabels:
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: javawebappcontainer
-          image: dockerhandson/java-web-app:latest
+          image: dockerhandson/REGISTRY.K8S.IO:latest
 
           resources:
             limits:
