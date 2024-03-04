@@ -1,0 +1,20 @@
+#first workflow of github actions
+name: First_workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello guru
+        run: echo "hello guru"
+      - name: Print multiple lines code
+        run: |
+          echo "first line of pipe"
+          echo "second line of pipe"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print second job name with multiple
+        run: sudo apt-get update -y
+      - name: Install git on ubuntu
+        run: sudo apt-get install git -y
