@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: pOD
 kind: Dep2
 kind2: Deployment2
 kind4: dep4
